@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_aD2y0JxmEeaKbcg6DiNnvw" name="awsMySql" id="_O-MF8JxmEeaKbcg6DiNnvw" label="awsMySql" divergency="true" dataPackage="_abSbYJxmEeaKbcg6DiNnvw" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://rrinstanceid.cnajpxtovacr.us-east-1.rds.amazonaws.com:3306/rrDbName?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="rafalr" Password="ce1bgqCHyuD4Kc4OqXukQg==" ServerName="rrinstanceid.cnajpxtovacr.us-east-1.rds.amazonaws.com" DatasourceName="" FileFieldName="" SID="rrDbName" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_aD2y0ZxmEeaKbcg6DiNnvw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_aEBx8JxmEeaKbcg6DiNnvw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_aEGDYJxmEeaKbcg6DiNnvw" tag="Status" value=""/>
+    <taggedValue xmi:id="_aEGDYZxmEeaKbcg6DiNnvw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_aEGqcJxmEeaKbcg6DiNnvw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_aEGqcZxmEeaKbcg6DiNnvw" tag="Description" value=""/>
+    <taggedValue xmi:id="_aEGqcpxmEeaKbcg6DiNnvw" tag="Author" value=""/>
+    <taggedValue xmi:id="_aEGqc5xmEeaKbcg6DiNnvw" tag="otherParameter"/>
+    <taggedValue xmi:id="_aPHnoJxmEeaKbcg6DiNnvw" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_aPIOsJxmEeaKbcg6DiNnvw" tag="DB ProductVersion" value="5.6.27-log"/>
+    <taggedValue xmi:id="_aPIOsZxmEeaKbcg6DiNnvw" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_aD2y0pxmEeaKbcg6DiNnvw" key="CONN_PARA_KEY_USERNAME" value="rafalr"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_abSbYJxmEeaKbcg6DiNnvw" name="rrDbName" dataManager="_aD2y0JxmEeaKbcg6DiNnvw">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_T3T7kJxnEeaKbcg6DiNnvw" name=" " id="_T3L_wJxnEeaKbcg6DiNnvw" label="rrTable" divergency="true" tableType="TABLE">
+      <taggedValue xmi:id="_T3T7kZxnEeaKbcg6DiNnvw" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_T3T7k5xnEeaKbcg6DiNnvw" name=" id" label="id" divergency="true" length="10" sourceType="BIGINT" talendType="id_Long" key="true" nullable="false">
+        <taggedValue xmi:id="_T3T7lJxnEeaKbcg6DiNnvw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_T3T7lZxnEeaKbcg6DiNnvw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_T3T7lpxnEeaKbcg6DiNnvw" name="INT UNSIGNED" numericPrecisionRadix="10" javaDataType="4"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_T3T7l5xnEeaKbcg6DiNnvw" name="imie" label="imie" divergency="true" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <taggedValue xmi:id="_T3T7mJxnEeaKbcg6DiNnvw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_T3T7mZxnEeaKbcg6DiNnvw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_T3T7mpxnEeaKbcg6DiNnvw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_T3T7m5xnEeaKbcg6DiNnvw" name="Nazwisko" label="Nazwisko" divergency="true" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <taggedValue xmi:id="_T3T7nJxnEeaKbcg6DiNnvw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_T3T7nZxnEeaKbcg6DiNnvw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_T3T7npxnEeaKbcg6DiNnvw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
